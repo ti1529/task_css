@@ -80,6 +80,61 @@ div,li {
 .concept_content img {
     width: 35%;
 }
+/* MENUセクション */
+.section_menu {
+    background-image: url(../images/sample_menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.reco_menu_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.reco_menu_items {
+    display: flex;
+    width: 49%;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    justify-content: flex-end;
+}
+.reco_menu_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.text_align_r {
+    text-align: right;
+}
+.reco_menu_img {
+    width: 55%;
+}
+.coffee_menu_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+}
+.coffee_menu_items {
+    display: flex;
+    width: 49%;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+}
+.coffee_menu_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80%;
+}
+
 .menu_title {
   display: inline-block;
   font-family: 'Noto Serif JP', serif;
@@ -94,4 +149,47 @@ div,li {
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
+}
+
+/* 店舗情報 */
+.info_list {
+    display: flex;
+}
+.info_list dt {
+    width: 80px;
+}
+.info_list dd {
+    display: block;
+}
+.info_map {
+    width: 100%;
+}
+
+/* フッター */
+footer {
+    background-color: #251e19;
+    color: #fff;
+    height: 75px;
+    position: absolute;
+    bottom: -75px;
+    width: 100%;
+
+}
+.footer_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_list a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer_logo {
+    width: 80px;
+}
+.footer_copy {
+    text-align: center;
+    font-size: .6rem;
+
 }

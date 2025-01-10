@@ -49,24 +49,28 @@
             <img src="images/sample_concept.jpg">
         </div>
       </article>
-      <article class="section_inner">
+      <article class="section_inner section_menu">
         <h1 class="section_title" id="menu">MENU</h1>
         <section>
           <div class="center">
             <h1 class="menu_title">Recommended menu</h1>
           </div>
-          <ul>
-            <li>
-              <h2>ブルーベリーパンケーキ</h2>
-              <p>フレッシュなブルーベリーをトッピングしたパンケーキです</p>
-              <p>¥1,200</p>
-              <img src="images/sample_pancake1.jpg">
+          <ul class="reco_menu_list">
+            <li class="reco_menu_items">
+                <div class="reco_menu_item_text">
+                    <h2>ブルーベリーパンケーキ</h2>
+                    <p>フレッシュなブルーベリーをトッピングしたパンケーキです</p>
+                    <p class="text_align_r">¥1,200</p>
+                </div>
+                <img src="images/sample_pancake1.jpg" class="reco_menu_img">
             </li>
-            <li>
-              <h2>ストロベリーパンケーキ</h2>
-              <p>イチゴとはちみつのコラボレーションをお楽しみください</p>
-              <p>¥1,300</p>
-              <img src="images/sample_pancake2.jpg">
+            <li class="reco_menu_items">
+                <div class="reco_menu_item_text">
+                    <h2>ストロベリーパンケーキ</h2>
+                    <p>イチゴとはちみつのコラボレーションをお楽しみください</p>
+                    <p class="text_align_r">¥1,300</p>
+                </div>
+                <img src="images/sample_pancake2.jpg" class="reco_menu_img">
             </li>
           </ul>
         </section>
@@ -74,26 +78,34 @@
           <div class="center">
             <h1 class="menu_title">Coffee menu</h1>
           </div>
-          <ul>
-            <li>
-              <h2>ブレンドコーヒー</h2>
-              <p>¥400</p>
-              <img src="images/sample_cafe1.jpg" class="caffee_menu_image">
+          <ul class="coffee_menu_list">
+            <li class="coffee_menu_items">
+                <div class="coffee_menu_item_text">
+                    <h2>ブレンドコーヒー</h2>
+                    <p>¥400</p>
+                </div>
+                <img src="images/sample_cafe1.jpg" class="caffee_menu_image">
             </li>
-            <li>
-              <h2>アートラテ</h2>
-              <p>¥500</p>
-              <img src="images/sample_cafe2.jpg" class="caffee_menu_image">
+            <li class="coffee_menu_items">
+                <div class="coffee_menu_item_text">
+                    <h2>アートラテ</h2>
+                    <p>¥500</p>
+                </div>
+                <img src="images/sample_cafe2.jpg" class="caffee_menu_image">
             </li>
-            <li>
-              <h2>カフェラテ</h2>
-              <p>¥450</p>
-              <img src="images/sample_cafe3.jpg" class="caffee_menu_image">
+            <li class="coffee_menu_items">
+                <div class="coffee_menu_item_text">
+                    <h2>カフェラテ</h2>
+                    <p>¥450</p>
+                </div>
+                <img src="images/sample_cafe3.jpg" class="caffee_menu_image">
             </li>
-            <li>
-              <h2>アイスコーヒー</h2>
-              <p>¥350</p>
-              <img src="images/sample_cafe4.jpg" class="caffee_menu_image">
+            <li class="coffee_menu_items">
+                <div class="coffee_menu_item_text">
+                    <h2>アイスコーヒー</h2>
+                    <p>¥350</p>
+                </div>
+                <img src="images/sample_cafe4.jpg" class="caffee_menu_image">
             </li>
           </ul>
         </section>
@@ -103,11 +115,11 @@
           <h1>ACCESS</h1>
           <p>店舗情報</p>
         </div>
-        <dl>
+        <dl class="info_list">
           <dt>営業時間</dt>
           <dd>10:00 - 19:00<br>木曜日定休</dd>
         </dl>
-        <dl>
+        <dl class="info_list">
           <dt>住所</dt>
           <dd>
             〒150-0044 東京都渋谷区円山町28番4号大場ビルA館<br>
@@ -117,12 +129,12 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8625569899887!2d139.6922821152582!3d35.65575778020021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55bb707eff%3A0x5f04575eb7aca63e!2z44CSMTUwLTAwNDQg5p2x5Lqs6YO95riL6LC35Yy65YaG5bGx55S677yS77yY4oiS77yUIE9iYSBCbGQuIEHppKg!5e0!3m2!1sja!2sjp!4v1589613763992!5m2!1sja!2sjp"
           width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-          tabindex="0"></iframe>
+          tabindex="0" class="info_map"></iframe>
       </article>
     </section>
     <footer>
       <nav>
-        <ul>
+        <ul class="footer_list">
           <a href="index.html">
             <li>Home</li>
           </a>
@@ -134,12 +146,12 @@
           </a>
           <a href="index.html">
             <li>
-              <img src="images/sample_logo_w.png">
+              <img src="images/sample_logo_w.png" class="footer_logo">
             </li>
           </a>
         </ul>
       </nav>
-      <p>© DIVIC Corp. All RIGHTS RESERVED.</p>
+      <p class="footer_copy">© DIVIC Corp. All RIGHTS RESERVED.</p>
     </footer>
   </body>
 
