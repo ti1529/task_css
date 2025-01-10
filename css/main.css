@@ -58,6 +58,8 @@ div,li {
   background: center / cover no-repeat url("../images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 .key h1{
   font-size: 2.5rem;
